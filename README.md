@@ -13,6 +13,7 @@ To this end note that each wikipedia page for a superbowl is in the following fo
 https://en.wikipedia.org/wiki/Super_Bowl_?? where ?? is the name of a particular Super Bowl. So if we intend to get data from Superbowl I, the link would be https://en.wikipedia.org/wiki/Super_Bowl_I,
 for Superbowl II: https://en.wikipedia.org/wiki/Super_Bowl_II and so on. This time around we still want to use the Wikpedia API but now we want to use it directly (before were using a Python module to do the heavy work for us but now we have to do it ourselves). 
 
+Moreover I will combine data from pt1 into the dataset generated from part2 into a singular file.
 
 ```python
 import pandas as pd
